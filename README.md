@@ -16,6 +16,24 @@ def search(str):
     ...
 ```
 
+# But what if I don't want to type name of the module every time
+
+If you don't want to type name of the module every time you create an object or call a function, instead of `import apple` you can do:
+
+```python
+from apple import *
+```
+
+this will make all the classes and functions from `apple` module available right away:
+
+```python
+# instead of
+apple.latest_iphone()
+# you can just write
+latest_iphone()
+
+```
+
 # How to get all methods of a class:
 
 Imagine you have a class `Tk` in the module `tkinter`
