@@ -53,3 +53,8 @@ Some classes have `__doc__` property, so you can get more detailed documentation
 ```python
 tkinter.Tk.__doc__ # Will print doc for Tk
 ```
+
+Although sometimes documentation is not very useful:
+> ```python
+> tkinter.Tk.mainloop.__doc__ #'Call the mainloop of Tk.'
+> ```
