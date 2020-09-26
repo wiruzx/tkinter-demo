@@ -51,7 +51,7 @@ dir(tkinter) # will return list of all classes and functions in the module
 Some classes have `__doc__` property, so you can get more detailed documentation:
 
 ```python
-tkinter.Tk.__doc__ # Will print doc for Tk
+tkinter.Tk.__doc__ # Will return doc for Tk
 ```
 
 Although sometimes documentation is not very useful:
